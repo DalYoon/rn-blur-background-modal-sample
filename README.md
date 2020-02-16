@@ -17,7 +17,7 @@ So, be careful for the below,
 
 On Android, it coppies original component and make it blur. So if the original component doesn't have background, blurred component will not have background as well.
 `THEREFORE, THE TARGET COMPONENT SHOULD HAVE BACKGROUND OR THE MODAL SHOULD HAVE BACKGROUND`
-Otherwise, blurred component overlaps original component, so it will look weird`
+Otherwise, blurred component overlaps original component, so it will look weird
 
 ## Result
 
