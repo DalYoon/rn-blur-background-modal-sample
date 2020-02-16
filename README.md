@@ -4,8 +4,8 @@ Sample code for Blur Background Modal on React Native
 
 ## Dependencies
 
-- @react-native-community/blur
-- react-native-modal
+- [@react-native-community/blur](https://github.com/react-native-community/react-native-blur)
+- [react-native-modal](https://github.com/react-native-community/react-native-modal)
 
 ## Note
 
