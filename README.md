@@ -9,7 +9,7 @@ Sample code for Blur Background Modal on React Native
 
 ## Note
 
-The package `react-native-community/blur` has native dependencies for each of them. So it works very different way on IOS/Android. As my understanding, on `IOS`, it works as a invisible layer that makes everything blur behind them. So you can put it everywhere you want to be blur.
+The package `react-native-community/blur` has native dependencies for each of them. So it works very different way on IOS/Android. As my understanding, on `IOS`, it works as a invisible layer that makes everything blur behind them. So you can put it everywhere you want it to be blur.
 But on `Android`, it needs specific target ref to make blur.
 You need to get ref from the target `View`, `Image` or whatever, and find node handle of it, pass it to `BlurView` as `viewRef prop`. Then, i think android copies passed target ref, lower the quality of that component (blurring), so you can put that blurred component where you want. So, on Android, it's not a blurring layer, it's just a coppied component that looks blur.
 
